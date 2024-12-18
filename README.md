@@ -9,6 +9,11 @@ A minimalist HF receiver
 This is a direct conversion receiver that uses a quadrature sampling detector (AKA Tayloe detector) to mix the RF down to audio baseband. Demodulation and DSP operations are done by an Atmega328 processor and software development uses the Arduino IDE. The receiver is implemented on a single circuit board with dimensions of 75mm x 55mm (2.9" x 2.1").
 
 
+## Arduino IDE support
+
+This project uses the Atmega328PB processor. You may need to upgrade your Arduino IDE to add support for this processor. There are probably a few ways to do this. The way I did it was to install MiniCore (https://github.com/MCUdude/MiniCore).
+
+
 ## Contributors
 
 * Scott L Baker
