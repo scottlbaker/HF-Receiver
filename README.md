@@ -13,6 +13,11 @@ This is a direct conversion receiver that uses a quadrature sampling detector (A
 
 This project uses the Atmega328PB processor. You may need to upgrade your Arduino IDE to add support for this processor. There are probably a few ways to do this. The way I did it was to install MiniCore (https://github.com/MCUdude/MiniCore).
 
+## Band Filter Modules
+
+This project uses plug-in band filter modules. The circuit board for these modules are the same as for my ADX-MI3 digital radio project and the gerbers can be found here:
+
+https://github.com/scottlbaker/ADX-MINI/tree/master/hardware/lpf/lpf-with-ID
 
 ## Contributors
 
